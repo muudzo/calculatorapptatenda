@@ -2,7 +2,7 @@
     display:grid;
     grid-template-columns: repeat(4,1fr);
     gap:10px;
-    padding:25px;
+    
 }
 button{
     width:100px;
@@ -18,10 +18,13 @@ button{
 }
 #calculator{
     font-family: Arial, Helvetica, sans-serif;
-    background-color:hsl(0, 0%, 15%);
+    background-color:hsl(0, 3%, 6%);
     border-radius: 15px;
     max-width: 500px;
     overflow: hidden;
+}
+#display-container{
+    margin-bottom: 10px;
 }
 #display{
     width: 100%;
@@ -30,7 +33,7 @@ button{
     text-align: left;
     border: none;
     background-color:hsl(0, 0%, 20%);
-    color: white;
+    
 
 
 }
@@ -45,14 +48,14 @@ button:hover{
     background-color:hsl(0, 0%, 40%);
 }
 button:active{
-    background-color:hsl(0, 0%, 50%);
+    background-color:hsl(0, 84%, 41%);
 }
 .operator-btn{
     background-color:hsl(35, 100%, 55%) ;
 }
 .operator-btn:hover{
-    background-color:hsl(35, 100%, 65%) ;
+    background-color:hsl(206, 68%, 48%) ;
 }
 .operator-btn:active{
-    background-color:hsl(35, 100%, 75%) ;
+    background-color:hsl(24, 88%, 51%) ;
 }
